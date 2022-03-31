@@ -39,6 +39,30 @@ body {
     align-items: center;
     flex: 1;
 }
+.two-box {
+    text-align: center;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 75px;
+}
+.group {
+    max-width: 175px;
+}
+.three-box {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.quote-container {
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+}
 .footer {
     margin-top: auto;
     min-height: 75px;
@@ -70,4 +94,31 @@ a {
 .links, .hero-second-text {
     color: #E5E7EB;
     font-size: 24px;
+}
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+#sign-up {
+    border: 3px solid white;
+}
+.blue-border {
+    border: 2px solid rgb(72, 72, 231);
+    height: 180px;
+    border-radius: 10px;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: oblique;
+    font-weight: 200;
+}
+.thor-quote {
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 20px;
+    max-width: 90rem;
 }
