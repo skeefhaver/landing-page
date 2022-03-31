@@ -8,6 +8,9 @@ body {
     color: white;
     background-color: #1F2937;
 }
+.one-box, .two-box, .three-box, .four-box {
+    flex: 1;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -41,12 +44,12 @@ body {
 }
 .two-box {
     text-align: center;
+    padding: 50px;
 }
 .info-container {
     display: flex;
     justify-content: center;
     gap: 35px;
-    margin-bottom: 75px;
 }
 .group {
     max-width: 175px;
@@ -59,9 +62,22 @@ body {
     height: 300px;
 }
 .quote-container {
-    max-width: 90rem;
+    max-width: 80rem;
     display: flex;
     flex-direction: column;
+}
+.four-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box {
+    background-color: #3882F6;
+    width: 90rem;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: space-around;
 }
 .footer {
     margin-top: auto;
@@ -70,6 +86,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -99,7 +116,6 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin-top: 45px;
     margin-bottom: 50px;
 }
 #sign-up {
@@ -114,11 +130,18 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-style: oblique;
-    font-weight: 200;
+    font-weight: 100;
 }
 .thor-quote {
     font-weight: 700;
     align-self: flex-end;
     font-size: 20px;
     max-width: 90rem;
+}
+#call, #call-second {
+    color: white;
+}
+#call {
+    font-size: 24px;
+    font-weight: bold;
 }
