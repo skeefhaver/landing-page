@@ -50,6 +50,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 35px;
+    flex-flow: row wrap;
 }
 .group {
     max-width: 175px;
